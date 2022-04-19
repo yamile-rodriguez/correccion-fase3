@@ -1,0 +1,77 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 72, 237);
+padding: 50px; ;
+color: ivory;
+}
+nav{
+    background-color: rgb(213, 146, 180);
+    padding: 30px;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: rgb(133, 94, 133);
+    grid-column: 1/4;
+    
+}
+
+aside{
+    background-color: cornflowerblue;
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: rgb(197, 74, 178);
+    color: lightpink;
+    padding: 20px;
+
+}
+.menu{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    padding: 20px;  80px
+    display: ;block;
+}
+
+.menu li a:hover{
+    background-color: chocolate;
+
+}
+.menu li ul{
+    display: none;
+    margin:- left:auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+
+}
+.menu li :hover> ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li{
+    
+}
+
+
